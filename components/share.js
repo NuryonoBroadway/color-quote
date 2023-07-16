@@ -42,29 +42,6 @@ function Share({ quote, onClose }) {
         />
       </div>
 
-      <div className="info">
-        <p>
-          Curated by{' '}
-          <a
-            target="_blank"
-            rel="noopener nofollow"
-            href="https://twitter.com/ademilter"
-          >
-            @ademilter
-          </a>
-        </p>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener nofollow"
-            href="https://github.com/ademilter/color-quote"
-          >
-            Source Codes
-          </a>{' '}
-          on Github
-        </p>
-      </div>
-
       <style jsx>{`
         .share {
           position: fixed;
